@@ -89,3 +89,7 @@ codetime是另一个时间跟踪工具,100 days of code是基于codetime的一�
 - 最好是文本,可以是随笔,博客,笔记,好看的文章,最好不要包含图片
 - gist的描述比较重要,多写一点,写具体一点,过滤的时候用多个key会方便很多
 - 同一个系列的gist可以用同一个前缀开头,eg: ffmpeg编码深入系列 xxx
+
+## Material Theme
+
+vscode主题,安装这个是因为flutter信仰,总体使用上,还是不如内置的solarized dark主题.
