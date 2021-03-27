@@ -126,3 +126,20 @@ Create Table of Contents和 update table of contents用于处理toc,
 
 这是支持issues/pr的插件,github就是重点支持对象.
 同时codestream还对slack等工具都支持的不错,但我们的需求先关注pr/issues.
+
+由于codestream后面会用的非常多,值得花更多时间来投资.
+
+首先codesteam的目标是协作,特别是远程团队之间的协作和review.
+在vscode中就可以使用github discussion.
+
+4大武器: 评论 comment; 反馈 feedback; pr; review.
+
+> codestream中还推出了轻量级的讨论,直接评论就行.
+同时轻量级评论还支持github的@系统.
+
+> 另外一个对github无侵入的是轻量级反馈,这是针对pr的.
+所以让协作变得更加轻便.这个轻量级的反馈可以理解为pre pr,
+最后还是要用github的pr来完成闭环.
+review同时也做到了vscode中,这样使用"轻量级评论/轻量级反馈/pr/review"来提高协作效率.
+
+通过codestream,将comment/feedback/pr/review和代码集成到一起,形成了知识库.
