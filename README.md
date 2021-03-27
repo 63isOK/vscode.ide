@@ -9,6 +9,9 @@
    6. [Go/flutter/dart](#goflutterdart)
    7. [markdown all in one](#markdown-all-in-one)
    8. [codestream](#codestream)
+      1. [codestream提供了哪些功能](#codestream提供了哪些功能)
+      2. [vscode中如何配置codestream](#vscode中如何配置codestream)
+      3. [codestream的工作流程](#codestream的工作流程)
 
 **打造符合自己的vscode环境**
 
@@ -126,3 +129,78 @@ Create Table of Contents和 update table of contents用于处理toc,
 
 这是支持issues/pr的插件,github就是重点支持对象.
 同时codestream还对slack等工具都支持的不错,但我们的需求先关注pr/issues.
+
+### codestream提供了哪些功能
+
+由于codestream后面会用的非常多,值得花更多时间来投资.
+
+首先codesteam的目标是协作,特别是远程团队之间的协作和review.
+在vscode中就可以使用github discussion.
+
+4大武器: 评论 comment; 反馈 feedback; pr; review.
+
+> codestream中还推出了轻量级的讨论,直接评论就行.
+同时轻量级评论还支持github的@系统.
+
+> 另外一个对github无侵入的是轻量级反馈,这是针对pr的.
+所以让协作变得更加轻便.这个轻量级的反馈可以理解为pre pr,
+最后还是要用github的pr来完成闭环.
+review同时也做到了vscode中,这样使用"轻量级评论/轻量级反馈/pr/review"来提高协作效率.
+
+通过codestream,将comment/feedback/pr/review和代码集成到一起,形成了知识库.
+
+### vscode中如何配置codestream
+
+两件事:
+
+- 创建一个账户
+- 加入一个team
+
+codestream的协作单元是以team为单位的.
+
+### codestream的工作流程
+
+整个codestream的流程分4步:开始工作/讨论代码/反馈/pr.下面分别描述:
+
+**开始工作**
+
+> 未使用codestream之前的战前准备如下:
+> 1. 不管是(修改bug还是新增功能),先要找到相关的issues,指定给自己
+> 2. 选择一个issue,变更其状态,表明我们正在处理这个issue
+> 3. 切到终端,创建分支
+> 4. 通过slack等协作沟通工具,告诉他人我们准备开始处理issue
+
+通过codestream,一键就搞定了.
+
+**讨论代码**
+
+这是基于github discussion的扩展.
+
+*codemark*,就是关于代码的discussion,让评论和某些代码关联起来了.
+这些都被保存起来了,好处是新加入的成员可以很容易接触到这些,
+codemark也是codestream知识库的基础.
+创建一个codemark,就可以基于代码创建一个轻量级的评论.
+在comment中,可以对代码进行提问/建议/记笔记等.
+创建一个codemark,还可以基于代码创建一个issue.
+创建的issue可以丢给github或其他类似的问题跟踪系统.
+
+codemark的生命阶段分"打开/解决/归档",分别是绿色/紫色/灰色.
+绿色/紫色是可以直接在vscode编辑页面看到的,灰色只能在codestream中搜索到.
+绿色的多,证明了沟通讨论的多,走到解决状态的少.
+
+codemark可以和多段代码联系起来,在描述中可以通过`[#N]`来引用代码片段,其中N是代码片段的序号.
+描述中还能添加图片或日志文件,都是为了丰富沟通手段.
+和github的做法一样,codemark同样提供了tag.不同的codemark之间也能相互关联.
+这些讨论的手段基本和github差不多,但会更加便捷,和代码关联,优势更加明显.
+
+**反馈**
+
+快速反馈除了便于review,还能在未提交的时候就开始沟通.
+传统的reveiw是开发的最后一环,快速反馈可以在前期识别风险,优势不是一点点.
+
+每个反馈都会有相应的review. 最终,反馈会升级为pr.
+
+**pr**
+
+开发的最后一环.
+最后pr的相关信息,也可以在vscode的编辑界面.
