@@ -9,6 +9,9 @@
    6. [Go/flutter/dart](#goflutterdart)
    7. [markdown all in one](#markdown-all-in-one)
    8. [codestream](#codestream)
+      1. [codestream提供了哪些功能](#codestream提供了哪些功能)
+      2. [vscode中如何配置codestream](#vscode中如何配置codestream)
+      3. [codestream的工作流程](#codestream的工作流程)
 
 **打造符合自己的vscode环境**
 
@@ -127,6 +130,8 @@ Create Table of Contents和 update table of contents用于处理toc,
 这是支持issues/pr的插件,github就是重点支持对象.
 同时codestream还对slack等工具都支持的不错,但我们的需求先关注pr/issues.
 
+### codestream提供了哪些功能
+
 由于codestream后面会用的非常多,值得花更多时间来投资.
 
 首先codesteam的目标是协作,特别是远程团队之间的协作和review.
@@ -143,3 +148,26 @@ Create Table of Contents和 update table of contents用于处理toc,
 review同时也做到了vscode中,这样使用"轻量级评论/轻量级反馈/pr/review"来提高协作效率.
 
 通过codestream,将comment/feedback/pr/review和代码集成到一起,形成了知识库.
+
+### vscode中如何配置codestream
+
+两件事:
+
+- 创建一个账户
+- 加入一个team
+
+codestream的协作单元是以team为单位的.
+
+### codestream的工作流程
+
+整个codestream的流程分4步:开始工作/讨论代码/反馈/pr.下面分别描述:
+
+**开始工作**
+
+> 未使用codestream之前的战前准备如下:
+> 1. 不管是(修改bug还是新增功能),先要找到相关的issues,指定给自己
+> 2. 选择一个issue,变更其状态,表明我们正在处理这个issue
+> 3. 切到终端,创建分支
+> 4. 通过slack等协作沟通工具,告诉他人我们准备开始处理issue
+
+通过codestream,一键就搞定了.
