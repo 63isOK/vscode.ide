@@ -33,7 +33,7 @@ vscode提供了两种方式:
 常用:
 
 - 自动保存,失去焦点就保存
-- 字体, Fira Code,微软雅黑, 'Courier New', monospace
+- 字体, 'Courier New',  '微软雅黑', monospace
 - 字号, 18
 - tab大小, 2
 
@@ -57,3 +57,6 @@ vscode提供了两种方式:
 - 终端,选中即复制
 
 ## wakatime
+
+这是一个时间跟踪工具,安装之后按指引配好api key.
+默认会在状态栏显示wakatime的统计信息,点击就会打开网页显示详细信息.
