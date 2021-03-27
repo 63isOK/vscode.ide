@@ -118,7 +118,7 @@ vscode主题,安装这个是因为flutter信仰,总体使用上,还是不如内�
 Create Table of Contents和 update table of contents用于处理toc,
 也就是目录,只要创建了toc,保存的时候会自动更新toc.
 
-在settings中,添加了一个序号.
+在settings中,添加了一个序号,去掉了对github table的转换.
 
 另一个常用的就是将md文件转成html,有时也是非常有用的,eg:md转公众号.
 
