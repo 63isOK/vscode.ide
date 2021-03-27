@@ -60,3 +60,15 @@ vscode提供了两种方式:
 
 这是一个时间跟踪工具,安装之后按指引配好api key.
 默认会在状态栏显示wakatime的统计信息,点击就会打开网页显示详细信息.
+
+## 100 days of code / codetime
+
+codetime是另一个时间跟踪工具,100 days of code是基于codetime的一个打卡工具.
+
+等这两个插件都安装完后,要先用codetime来注册登录帐号,
+注册一步就搞定,但在vscode上的登录,试了很多次都不行,
+最后先在100 days of code中触发登录,后来才能从codetime中登录,
+具体是不是这个逻辑我也不确定,反正最后都登录上了.
+
+这两个工具的使用,很多都是交叉的,比如说100上要提交log,需要有project,
+这个project是从codetime中来的,还有里程碑/徽章等.
