@@ -8,6 +8,7 @@
    5. [Material Theme](#material-theme)
    6. [Go/flutter/dart](#goflutterdart)
    7. [markdown all in one](#markdown-all-in-one)
+   8. [codestream](#codestream)
 
 **打造符合自己的vscode环境**
 
@@ -120,3 +121,8 @@ Create Table of Contents和 update table of contents用于处理toc,
 
 同时介绍另一个插件 open in browser, 这个是在浏览器中打开html文件,
 可惜在我的环境中没有成功,不同的平台应该会有更好的表现.
+
+## codestream
+
+这是支持issues/pr的插件,github就是重点支持对象.
+同时codestream还对slack等工具都支持的不错,但我们的需求先关注pr/issues.
