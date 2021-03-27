@@ -72,3 +72,6 @@ codetime是另一个时间跟踪工具,100 days of code是基于codetime的一�
 
 这两个工具的使用,很多都是交叉的,比如说100上要提交log,需要有project,
 这个project是从codetime中来的,还有里程碑/徽章等.
+
+如果仅仅是简单点用,可以用codetime来跟踪时间,用100 days of code来跟踪打卡.
+如果要使用一些project等有价值的辅助工具,还不是免费的,偏离了初衷.
