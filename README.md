@@ -1,5 +1,14 @@
 # vscode.ide
 
+1. [vscode.ide](#vscodeide)
+   1. [在说插件之前,先说vscode的setting](#在说插件之前先说vscode的setting)
+   2. [wakatime](#wakatime)
+   3. [100 days of code / codetime](#100-days-of-code--codetime)
+   4. [gist](#gist)
+   5. [Material Theme](#material-theme)
+   6. [Go/flutter/dart](#goflutterdart)
+   7. [markdown all in one](#markdown-all-in-one)
+
 **打造符合自己的vscode环境**
 
 > 什么使用vscode?
@@ -93,3 +102,21 @@ codetime是另一个时间跟踪工具,100 days of code是基于codetime的一�
 ## Material Theme
 
 vscode主题,安装这个是因为flutter信仰,总体使用上,还是不如内置的solarized dark主题.
+
+## Go/flutter/dart
+
+这些是语言或框架的支持,后续会针对性补充其他插件.
+
+## markdown all in one
+
+这个是md插件, 最常用的功能是预览(不管是自己写md还是看开源项目,预览都是非常实用的)
+
+Create Table of Contents和 update table of contents用于处理toc,
+也就是目录,只要创建了toc,保存的时候会自动更新toc.
+
+在settings中,添加了一个序号.
+
+另一个常用的就是将md文件转成html,有时也是非常有用的,eg:md转公众号.
+
+同时介绍另一个插件 open in browser, 这个是在浏览器中打开html文件,
+可惜在我的环境中没有成功,不同的平台应该会有更好的表现.
