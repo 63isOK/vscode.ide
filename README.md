@@ -169,3 +169,5 @@ codestream的协作单元是以team为单位的.
 > 2. 选择一个issue,变更其状态,表明我们正在处理这个issue
 > 3. 切到终端,创建分支
 > 4. 通过slack等协作沟通工具,告诉他人我们准备开始处理issue
+
+通过codestream,一键就搞定了.
