@@ -28,6 +28,8 @@
    21. [prettier - code formatter](#prettier---code-formatter)
    22. [remote ssh](#remote-ssh)
    23. [todo tree](#todo-tree)
+   24. [graphql](#graphql)
+   25. [project manager](#project-manager)
 
 **打造符合自己的vscode环境**
 
@@ -126,6 +128,8 @@ vscode主题,安装这个是因为flutter信仰,总体使用上,还是不如内�
 ## Go/flutter/dart
 
 这些是语言或框架的支持,后续会针对性补充其他插件.
+
+bloc/flutter-stylizer,均是一些工具库.
 
 ## markdown all in one
 
@@ -337,3 +341,11 @@ TODO还支持多行,只要TODO下方的行多一个缩进就行.
 除此之外,还支持以下触发条件: HACK/XXX/`[ ]`/`[x]`.
 
 **总的来说,TODO/FIXME/BUG最为有用**.
+
+## graphql
+
+提供了graphql的语法高亮.
+
+## project manager
+
+项目管理,方便切换.
