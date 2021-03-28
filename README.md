@@ -12,6 +12,7 @@
       1. [codestream提供了哪些功能](#codestream提供了哪些功能)
       2. [vscode中如何配置codestream](#vscode中如何配置codestream)
       3. [codestream的工作流程](#codestream的工作流程)
+      4. [codestream总结](#codestream总结)
 
 **打造符合自己的vscode环境**
 
@@ -204,3 +205,14 @@ codemark可以和多段代码联系起来,在描述中可以通过`[#N]`来引�
 
 开发的最后一环.
 最后pr的相关信息,也可以在vscode的编辑界面.
+
+### codestream总结
+
+所有的工作流程都是从issues开始,最后到pr被接受.
+
+codestream也是从issues开始,只是中间加入了不少协作的方法:
+
+1. 从issues挑一个出来处理(修改bug/新增功能),此时会创建分支,标记任务的状态
+2. 不停用快速反馈来沟通思路的正确性和实现的正确性
+3. 在沟通过程中,可以用codemark来交流或提出新的issue
+4. 最后快速反馈被接收,就可以产生pr,走向最后的环节
