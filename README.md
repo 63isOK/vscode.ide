@@ -25,6 +25,9 @@
    18. [indent-ranbow](#indent-ranbow)
    19. [output colorizer](#output-colorizer)
    20. [partial diff](#partial-diff)
+   21. [prettier - code formatter](#prettier---code-formatter)
+   22. [remote ssh](#remote-ssh)
+   23. [todo tree](#todo-tree)
 
 **打造符合自己的vscode环境**
 
@@ -312,3 +315,25 @@ gitlens在代码中添加了不少信息,默认设置就已经提供了非常强
 
 - 选中一段,标记为比较项,再选另一段,比较
 - 复制一段,选中一段,比较
+
+## prettier - code formatter
+
+代码自动格式化.
+
+## remote ssh
+
+这是一个相当强悍的功能,github的codespace就是利用类似的原理搞定的.
+
+先建一个配置文件,在setting中指定配置文件路径,之后每次连接都输入两次密码,效果惊人.
+
+## todo tree
+
+这是一个待办事项.
+
+通过注释中的TODO/FIXME/BUG来触发,需要大写,和better comment 不冲突.
+
+TODO还支持多行,只要TODO下方的行多一个缩进就行.
+
+除此之外,还支持以下触发条件: HACK/XXX/`[ ]`/`[x]`.
+
+**总的来说,TODO/FIXME/BUG最为有用**.
