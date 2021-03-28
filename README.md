@@ -15,6 +15,7 @@
       4. [codestream总结](#codestream总结)
    9. [git graph](#git-graph)
    10. [git history](#git-history)
+   11. [gitlens](#gitlens)
 
 **打造符合自己的vscode环境**
 
@@ -242,3 +243,11 @@ timeline也可以选择针对文件的跟踪,但git history关联了更多信息
 另外一个常用的就是针对行的历史,测试发现行历史,gitlen/timeline和git history都差不多.
 
 针对文件的跟踪,额外提供了一个历史版本比较功能,比较有用.
+
+## gitlens
+
+gitlens这个插件也是覆盖了很多git的操作,特点在于git仓库的导航,阅读源码非常给力.
+特点是高定制性.
+
+gitlens在代码中添加了不少信息,默认设置就已经提供了非常强力的功能.
+除了界面上能看到的功能,在功能区还添加了tag/共享者的列表.
