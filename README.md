@@ -16,6 +16,7 @@
    9. [git graph](#git-graph)
    10. [git history](#git-history)
    11. [gitlens](#gitlens)
+   12. [local history](#local-history)
 
 **打造符合自己的vscode环境**
 
@@ -251,3 +252,7 @@ gitlens这个插件也是覆盖了很多git的操作,特点在于git仓库的导
 
 gitlens在代码中添加了不少信息,默认设置就已经提供了非常强力的功能.
 除了界面上能看到的功能,在功能区还添加了tag/共享者的列表.
+
+## local history
+
+本地缓存的历史,偶尔会非常有用.
