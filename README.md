@@ -13,6 +13,7 @@
       2. [vscode中如何配置codestream](#vscode中如何配置codestream)
       3. [codestream的工作流程](#codestream的工作流程)
       4. [codestream总结](#codestream总结)
+   9. [git graph](#git-graph)
 
 **打造符合自己的vscode环境**
 
@@ -216,3 +217,18 @@ codestream也是从issues开始,只是中间加入了不少协作的方法:
 2. 不停用快速反馈来沟通思路的正确性和实现的正确性
 3. 在沟通过程中,可以用codemark来交流或提出新的issue
 4. 最后快速反馈被接收,就可以产生pr,走向最后的环节
+
+## git graph
+
+这个插件将git log --graph的相关功能做了升级,
+查看分支图,每次的提交等,都是非常方便的.
+
+以下功能是比较常用的:
+
+1. 显示分支图
+2. 右键支持git的操作
+3. 点击具体commit,可查看变更的文件和差异
+4. 比较两次commit的差异
+5. review/pr/各种git操作
+
+总的来说,查看分支图/浏览commit的变更用的最多.
