@@ -21,6 +21,10 @@
    14. [better align](#better-align)
    15. [better comments](#better-comments)
    16. [bookmarks](#bookmarks)
+   17. [Bracket Pair Colorizer 2](#bracket-pair-colorizer-2)
+   18. [indent-ranbow](#indent-ranbow)
+   19. [output colorizer](#output-colorizer)
+   20. [partial diff](#partial-diff)
 
 **打造符合自己的vscode环境**
 
@@ -289,3 +293,22 @@ gitlens在代码中添加了不少信息,默认设置就已经提供了非常强
 - Ctrl + F2: bookmarks toggle
 
 特别是在源码层次多,跳转多时,非常有用.
+
+## Bracket Pair Colorizer 2
+
+给括号上色.特别像flutter这种括号非常多的.
+
+## indent-ranbow
+
+缩进上色.
+
+## output colorizer
+
+彩色输出
+
+## partial diff
+
+比较工具,定位是替换beyond compare,有两种常见的比较方式:
+
+- 选中一段,标记为比较项,再选另一段,比较
+- 复制一段,选中一段,比较
