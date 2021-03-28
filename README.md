@@ -17,6 +17,10 @@
    10. [git history](#git-history)
    11. [gitlens](#gitlens)
    12. [local history](#local-history)
+   13. [error len](#error-len)
+   14. [better align](#better-align)
+   15. [better comments](#better-comments)
+   16. [bookmarks](#bookmarks)
 
 **打造符合自己的vscode环境**
 
@@ -256,3 +260,32 @@ gitlens在代码中添加了不少信息,默认设置就已经提供了非常强
 ## local history
 
 本地缓存的历史,偶尔会非常有用.
+
+## error len
+
+根据不同语言,将错误地方用红色行显示出来.
+
+## better align
+
+对齐,用法简单:选中一个范围,调用命令align.
+
+## better comments
+
+在注释中进行分类.如果使用好,也是一个交流的方式
+
+```c
+// * 强调, 表示重要
+// ! 结论, 表示大家都需要遵循的约定
+// ? 疑问, 表示需要澄清
+// todo, 表示后续还要处理
+// // 遗弃信息, 表示这块和当前需求已经没太大关联了
+```
+
+## bookmarks
+
+书签,真正能提高效率的工具,修改了两个快捷键:
+
+- F2: bookmarks jump to next
+- Ctrl + F2: bookmarks toggle
+
+特别是在源码层次多,跳转多时,非常有用.
