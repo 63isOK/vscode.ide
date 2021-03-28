@@ -14,6 +14,7 @@
       3. [codestream的工作流程](#codestream的工作流程)
       4. [codestream总结](#codestream总结)
    9. [git graph](#git-graph)
+   10. [git history](#git-history)
 
 **打造符合自己的vscode环境**
 
@@ -232,3 +233,12 @@ codestream也是从issues开始,只是中间加入了不少协作的方法:
 5. review/pr/各种git操作
 
 总的来说,查看分支图/浏览commit的变更用的最多.
+
+## git history
+
+上面的git graph是针对分支图的,那么git history的优势是针对文件,
+timeline也可以选择针对文件的跟踪,但git history关联了更多信息.
+
+另外一个常用的就是针对行的历史,测试发现行历史,gitlen/timeline和git history都差不多.
+
+针对文件的跟踪,额外提供了一个历史版本比较功能,比较有用.
