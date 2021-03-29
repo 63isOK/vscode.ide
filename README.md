@@ -30,6 +30,7 @@
    23. [todo tree](#todo-tree)
    24. [graphql](#graphql)
    25. [project manager](#project-manager)
+   26. [vim](#vim)
 
 **打造符合自己的vscode环境**
 
@@ -336,7 +337,7 @@ gitlens在代码中添加了不少信息,默认设置就已经提供了非常强
 
 通过注释中的TODO/FIXME/BUG来触发,需要大写,和better comment 不冲突.
 
-TODO还支持多行,只要TODO下方的行多一个缩进就行.
+其中TODO还支持多行,只要TODO下方的行多一个缩进就行.
 
 除此之外,还支持以下触发条件: HACK/XXX/`[ ]`/`[x]`.
 
@@ -349,3 +350,41 @@ TODO还支持多行,只要TODO下方的行多一个缩进就行.
 ## project manager
 
 项目管理,方便切换.
+
+## vim
+
+最核心的插件,定制最高的.
+
+要在vscode中使用vim,又有vim强大的功能,必须用vscode和vim配合,各自完成一部分功能.
+
+1. 指定vimrc的路径,这个在setting vim path中设置
+2. 在setting中修改leader为 ','
+3. 复制改为复制到剪贴板
+4. 编写vimrc
+5. 打开搜索高亮.
+6. 使用系统剪贴板.
+7. 启用vimrc中的键位映射
+
+```vimscript
+" fast saving
+nnoremap <leader>w :w!<cr>
+nnoremap <silent> <leader>q :q!<CR>
+
+" Center the screen
+nnoremap <space> zz
+
+" Remove search highlight
+" nnoremap <leader><space> :nohlsearch<CR>
+function! s:clear_highlight()
+  let @/ = ""
+  call go#guru#ClearSameIds()
+endfunction
+nnoremap <silent> <leader><space> :<C-u>call <SID>clear_highlight()<CR>
+
+" Exit on j
+imap jj <Esc>
+```
+
+因为使用vim的u和ctrl-r,所以不需要使用vscode的ctrl-z和ctrl shift-z.
+
+至此,核心插件都已经配置好了.
