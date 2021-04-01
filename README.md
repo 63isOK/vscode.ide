@@ -1,36 +1,37 @@
 # vscode.ide
 
-1. [vscode.ide](#vscodeide)
-   1. [在说插件之前,先说vscode的setting](#在说插件之前先说vscode的setting)
-   2. [wakatime](#wakatime)
-   3. [100 days of code / codetime](#100-days-of-code--codetime)
-   4. [gist](#gist)
-   5. [Material Theme](#material-theme)
-   6. [Go/flutter/dart](#goflutterdart)
-   7. [markdown all in one](#markdown-all-in-one)
-   8. [codestream](#codestream)
-      1. [codestream提供了哪些功能](#codestream提供了哪些功能)
-      2. [vscode中如何配置codestream](#vscode中如何配置codestream)
-      3. [codestream的工作流程](#codestream的工作流程)
-      4. [codestream总结](#codestream总结)
-   9. [git graph](#git-graph)
-   10. [git history](#git-history)
-   11. [gitlens](#gitlens)
-   12. [local history](#local-history)
-   13. [error len](#error-len)
-   14. [better align](#better-align)
-   15. [better comments](#better-comments)
-   16. [bookmarks](#bookmarks)
-   17. [Bracket Pair Colorizer 2](#bracket-pair-colorizer-2)
-   18. [indent-ranbow](#indent-ranbow)
-   19. [output colorizer](#output-colorizer)
-   20. [partial diff](#partial-diff)
-   21. [prettier - code formatter](#prettier---code-formatter)
-   22. [remote ssh](#remote-ssh)
-   23. [todo tree](#todo-tree)
-   24. [graphql](#graphql)
-   25. [project manager](#project-manager)
-   26. [vim](#vim)
+- [vscode.ide](#vscodeide)
+  - [在说插件之前,先说vscode的setting](#在说插件之前先说vscode的setting)
+  - [wakatime](#wakatime)
+  - [100 days of code / codetime](#100-days-of-code--codetime)
+  - [gist](#gist)
+  - [Material Theme](#material-theme)
+  - [Go/flutter/dart](#goflutterdart)
+  - [markdown all in one](#markdown-all-in-one)
+  - [codestream](#codestream)
+    - [codestream提供了哪些功能](#codestream提供了哪些功能)
+    - [vscode中如何配置codestream](#vscode中如何配置codestream)
+    - [codestream的工作流程](#codestream的工作流程)
+    - [codestream总结](#codestream总结)
+  - [git graph](#git-graph)
+  - [git history](#git-history)
+  - [gitlens](#gitlens)
+  - [local history](#local-history)
+  - [error len](#error-len)
+  - [better align](#better-align)
+  - [better comments](#better-comments)
+  - [bookmarks](#bookmarks)
+  - [Bracket Pair Colorizer 2](#bracket-pair-colorizer-2)
+  - [indent-ranbow](#indent-ranbow)
+  - [output colorizer](#output-colorizer)
+  - [partial diff](#partial-diff)
+  - [prettier - code formatter](#prettier---code-formatter)
+  - [remote ssh](#remote-ssh)
+  - [todo tree](#todo-tree)
+  - [graphql](#graphql)
+  - [project manager](#project-manager)
+  - [vim](#vim)
+  - [asciiflow2](#asciiflow2)
 
 **打造符合自己的vscode环境**
 
@@ -388,3 +389,36 @@ imap jj <Esc>
 因为使用vim的u和ctrl-r,所以不需要使用vscode的ctrl-z和ctrl shift-z.
 
 至此,核心插件都已经配置好了.
+
+## asciiflow2
+
+这个插件的作用是提供画ascii图的工具,这个插件是第一个版本,不是很好用,
+但在离线或vscode中,可以救下火.
+
+原作者已经开发出了[第二个版本](https://asciiflow.com/),第三个版本也在计划中.
+cjk的支持需要在v3中实现.
+
+下面对v2版本的使用做下说明:
+
+- 长方形框框
+- 选择和移动
+   - 点在已有图形中,可以改变图形的大小
+   - 选中一个区域,可以ctrl-cv进行复制粘贴,也可以进行移动
+   - 删除键/退格键,能删除选中的区域
+   - 按住shift键,进入选择模式,而不是缩放模式 
+- 画字符
+  - 按下键盘上的键,拖动鼠标
+- 画(带箭头的)线
+  - 画折线时,可通过shift来控制折线的方向
+- 写文字
+  - 输入之后按enter,表示保存一次(撤销时很有用)
+  - 换行,shift/ctrl + enter
+
+通用操作:
+
+- 按住空格,可拖动整个画布
+- ctrl z / ctrl shift z 支持撤销
+
+总体来说,非常有用.
+rfc都是ascii图,现在连bat的sdk发布文档都是ascii图.
+ 
